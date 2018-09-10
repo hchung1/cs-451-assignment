@@ -20,7 +20,7 @@ that it locates the largest number given in the list argument.
 Return the largest value found. Please do not use python's max() function.
 """
 def find_max(alist):
-        a = alist[0]
+    a = alist[0]
     for i in range(len(alist)):
         if (a < alist[i]):
             a = alist[i]
