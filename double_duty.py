@@ -6,7 +6,12 @@ that it locates the smallest number in the list argument.
 Return the smallest value found. Please do not use python's min() function.
 """
 def find_min(alist):
-    pass
+    #a = min(alist)
+    a = alist[0]
+    for i in range(len(alist)):
+        if (a > alist[i]):
+            a = alist[i]
+    return a
 
 
 """Remove the pass statement then implement the following python function so 
